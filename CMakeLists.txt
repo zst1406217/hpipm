@@ -45,7 +45,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 # Options
 
 # Target architecture
-set(TARGET AVX CACHE STRING "Set CPU architecture target")
+set(TARGET GENERIC CACHE STRING "Set CPU architecture target")
 #set(TARGET GENERIC CACHE STRING "Set CPU architecture target")
 
 # Populate a list of allowable targets and link it to the option
